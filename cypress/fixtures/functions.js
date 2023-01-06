@@ -3,7 +3,7 @@ const id = Date.now();
 //Authorization token is taken from the environment variables
 const authorization = 'Bearer ' + Cypress.env('GITHUB_TOKEN')
 //This is the token in case you want to use it to hardcode it
-//var authorization = 'Bearer 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'
+//const authorization = 'Bearer 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'
 
 export function stringify(obj) {
     //function to convert the object to a string
