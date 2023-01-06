@@ -13,7 +13,7 @@ How To Run
 -Download the repo
 -Install the library if it's not downloaded automatically
 -point to the downloaded folder and open it on cmd
--type "npx cypress open --env GITHUB_TOKEN=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,passphrase=GoSpace"
+-type "npx cypress open --env GITHUB_TOKEN=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,passphrase=GoSpace"
     * GITHUB_TOKEN is used to authenticate GitHub user
     * passphrase is used for password encryption
 -The cypress application is open
