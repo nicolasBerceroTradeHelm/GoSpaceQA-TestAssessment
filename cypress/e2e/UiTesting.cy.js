@@ -9,6 +9,8 @@ describe('UI Testing', () => {
 	before(() => {
         //Create a repo to populate the list
         api.createRepo()
+        //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
+        //npx cypress open --env GITHUB_TOKEN=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,passphrase=GoSpace
     })
 
     it('Validate Login', () => {
